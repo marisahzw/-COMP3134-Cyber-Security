@@ -1,0 +1,8 @@
+**Server Port:**
+A server port is a numbered endpoint in networking that allows applications to communicate. Port numbers direct data traffic to specific services on a computer.
+
+**Server Port Range:**
+Port numbers range from 0 to 65535. Well-known ports (0-1023) are reserved, registered ports (1024-49151) are for specific applications, and dynamic ports (49152-65535) are temporary.
+
+**Bits in Port Number:**
+Port numbers are typically represented as 16-bit unsigned integers, allowing for 2^16 (65,536) possible port values.
