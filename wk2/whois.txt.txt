@@ -1,0 +1,297 @@
+Domain Name: IAMMARISA.COM
+Registry Domain ID: 2755594190_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.publicdomainregistry.com
+Registrar URL: www.publicdomainregistry.com
+Updated Date: 2023-04-04T06:05:28Z
+Creation Date: 2023-02-02T11:25:47Z
+Registrar Registration Expiration Date: 2024-02-02T11:25:47Z
+Registrar: PDR Ltd. d/b/a PublicDomainRegistry.com
+Registrar IANA ID: 303
+Domain Status: OK https://icann.org/epp#OK
+Registry Registrant ID: Not Available From Registry
+Registrant Name: Domain Admin
+Registrant Organization: Privacy Protect, LLC (PrivacyProtect.org)
+Registrant Street: 10 Corporate Drive   
+Registrant City: Burlington
+Registrant State/Province: MA
+Registrant Postal Code: 01803
+Registrant Country: US
+Registrant Phone: +1.8022274003
+Registrant Phone Ext: 
+Registrant Fax: 
+Registrant Fax Ext: 
+Registrant Email: email@privacyprotect.org
+Registry Admin ID: Not Available From Registry
+Admin Name: Domain Admin
+Admin Organization: Privacy Protect, LLC (PrivacyProtect.org)
+Admin Street: 10 Corporate Drive   
+Admin City: Burlington
+Admin State/Province: MA
+Admin Postal Code: 01803
+Admin Country: US
+Admin Phone: +1.8022274003
+Admin Phone Ext: 
+Admin Fax: 
+Admin Fax Ext: 
+Admin Email: email@privacyprotect.org
+Registry Tech ID: Not Available From Registry
+Tech Name: Domain Admin
+Tech Organization: Privacy Protect, LLC (PrivacyProtect.org)
+Tech Street: 10 Corporate Drive   
+Tech City: Burlington
+Tech State/Province: MA
+Tech Postal Code: 01803
+Tech Country: US
+Tech Phone: +1.8022274003
+Tech Phone Ext: 
+Tech Fax: 
+Tech Fax Ext: 
+Tech Email: email@privacyprotect.org
+Name Server: doma151591.earth.orderbox-dns.com
+Name Server: doma151591.mars.orderbox-dns.com
+Name Server: doma151591.mercury.orderbox-dns.com
+Name Server: doma151591.venus.orderbox-dns.com
+DNSSEC: Unsigned
+Registrar Abuse Contact Email: email@publicdomainregistry.com
+Registrar Abuse Contact Phone: +1.2013775952
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2024-01-20T06:22:58Z <<<
+
+Domain Name: FACEBOOK.COM
+Registry Domain ID: 2320948_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.registrarsafe.com
+Registrar URL: https://www.registrarsafe.com
+Updated Date: 2023-04-26T19:04:19Z
+Creation Date: 1997-03-29T05:00:00Z
+Registrar Registration Expiration Date: 2032-03-30T04:00:00Z
+Registrar: RegistrarSafe, LLC
+Registrar IANA ID: 3237
+Registrar Abuse Contact Email: email@registrarsafe.com
+Registrar Abuse Contact Phone: +1.6503087004
+Domain Status: clientDeleteProhibited https://www.icann.org/epp#clientDeleteProhibited
+Domain Status: clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://www.icann.org/epp#clientUpdateProhibited
+Domain Status: serverDeleteProhibited https://www.icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited https://www.icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited https://www.icann.org/epp#serverUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: Domain Admin
+Registrant Organization: Meta Platforms, Inc.
+Registrant Street: 1601 Willow Rd 
+Registrant City: Menlo Park
+Registrant State/Province: CA
+Registrant Postal Code: 94025
+Registrant Country: US
+Registrant Phone: +1.6505434800
+Registrant Phone Ext:
+Registrant Fax: 
+Registrant Fax Ext:
+Registrant Email: email@fb.com
+Registry Admin ID: 
+Admin Name: Domain Admin
+Admin Organization: Meta Platforms, Inc.
+Admin Street: 1601 Willow Rd 
+Admin City: Menlo Park
+Admin State/Province: CA
+Admin Postal Code: 94025
+Admin Country: US
+Admin Phone: +1.6505434800
+Admin Phone Ext:
+Admin Fax: 
+Admin Fax Ext:
+Admin Email: email@fb.com
+Registry Tech ID: 
+Tech Name: Domain Admin
+Tech Organization: Meta Platforms, Inc.
+Tech Street: 1601 Willow Rd 
+Tech City: Menlo Park
+Tech State/Province: CA
+Tech Postal Code: 94025
+Tech Country: US
+Tech Phone: +1.6505434800
+Tech Phone Ext:
+Tech Fax: 
+Tech Fax Ext:
+Tech Email: email@fb.com
+Name Server: D.NS.FACEBOOK.COM
+Name Server: A.NS.FACEBOOK.COM
+Name Server: B.NS.FACEBOOK.COM
+Name Server: C.NS.FACEBOOK.COM
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2024-01-20T04:36:01Z <<<
+
+Domain Name: INSTAGRAM.COM
+Registry Domain ID: 121748357_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.registrarsafe.com
+Registrar URL: https://www.registrarsafe.com
+Updated Date: 2023-07-05T19:08:13Z
+Creation Date: 2004-06-04T13:37:18Z
+Registrar Registration Expiration Date: 2032-06-04T13:37:18Z
+Registrar: RegistrarSafe, LLC
+Registrar IANA ID: 3237
+Registrar Abuse Contact Email: email@registrarsafe.com
+Registrar Abuse Contact Phone: +1.6503087004
+Domain Status: clientDeleteProhibited https://www.icann.org/epp#clientDeleteProhibited
+Domain Status: clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://www.icann.org/epp#clientUpdateProhibited
+Domain Status: serverDeleteProhibited https://www.icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited https://www.icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited https://www.icann.org/epp#serverUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: Domain Admin
+Registrant Organization: Instagram LLC
+Registrant Street: 1601 Willow Rd 
+Registrant City: Menlo Park
+Registrant State/Province: CA
+Registrant Postal Code: 94025
+Registrant Country: US
+Registrant Phone: +1.6505434800
+Registrant Phone Ext:
+Registrant Fax: 
+Registrant Fax Ext:
+Registrant Email: email@fb.com
+Registry Admin ID: 
+Admin Name: Domain Admin
+Admin Organization: Instagram LLC
+Admin Street: 1601 Willow Rd 
+Admin City: Menlo Park
+Admin State/Province: CA
+Admin Postal Code: 94025
+Admin Country: US
+Admin Phone: +1.6505434800
+Admin Phone Ext:
+Admin Fax: 
+Admin Fax Ext:
+Admin Email: email@fb.com
+Registry Tech ID: 
+Tech Name: Domain Admin
+Tech Organization: Instagram LLC
+Tech Street: 1601 Willow Rd 
+Tech City: Menlo Park
+Tech State/Province: CA
+Tech Postal Code: 94025
+Tech Country: US
+Tech Phone: +1.6505434800
+Tech Phone Ext:
+Tech Fax: 
+Tech Fax Ext:
+Tech Email: email@fb.com
+Name Server: C.NS.INSTAGRAM.COM
+Name Server: B.NS.INSTAGRAM.COM
+Name Server: D.NS.INSTAGRAM.COM
+Name Server: A.NS.INSTAGRAM.COM
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2024-01-19T12:12:45Z <<<
+
+
+Domain Name: google.com
+Registry Domain ID: 2138514_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2019-09-09T15:39:04+0000
+Creation Date: 1997-09-15T07:00:00+0000
+Registrar Registration Expiration Date: 2028-09-13T07:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: email@markmonitor.com
+Registrar Abuse Contact Phone: +1.2086851750
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+Registrant Organization: Google LLC
+Registrant State/Province: CA
+Registrant Country: US
+Registrant Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.com
+Admin Organization: Google LLC
+Admin State/Province: CA
+Admin Country: US
+Admin Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.com
+Tech Organization: Google LLC
+Tech State/Province: CA
+Tech Country: US
+Tech Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.com
+Name Server: ns1.google.com
+Name Server: ns3.google.com
+Name Server: ns4.google.com
+Name Server: ns2.google.com
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2024-01-19T20:28:11+0000 <<<
+
+Domain Name: apple.ca
+Registry Domain ID: D14928-CIRA
+Registrar WHOIS Server: whois.ca.fury.ca
+Registrar URL: https://help.opensrs.com/hc/en-us
+Updated Date: 2022-12-17T12:22:31Z
+Creation Date: 2000-10-19T18:25:39Z
+Registry Expiry Date: 2024-05-16T04:00:00Z
+Registrar: Tucows.com Co.
+Registrar IANA ID: not applicable
+Registrar Abuse Contact Email: email@tucows.com
+Registrar Abuse Contact Phone: +1.4165350123
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Registry Registrant ID: 107795844-CIRA
+Registrant Name: Domain Administrator
+Registrant Organization: Apple Canada Inc.
+Registrant Street: 120 Bremner Boulevard, Suite 1600
+Registrant City: Toronto
+Registrant State/Province: ON
+Registrant Postal Code: M5J0A8
+Registrant Country: CA
+Registrant Phone: +1.4089961010
+Registrant Phone Ext:
+Registrant Fax:
+Registrant Fax Ext:
+Registrant Email: email@apple.com
+Registry Admin ID: 107795845-CIRA
+Admin Name: Domain Administrator
+Admin Organization: Apple Canada Inc.
+Admin Street: 120 Bremner Boulevard, Suite 1600
+Admin City: Toronto
+Admin State/Province: ON
+Admin Postal Code: M5J0A8
+Admin Country: CA
+Admin Phone: +1.4089961010
+Admin Phone Ext:
+Admin Fax:
+Admin Fax Ext:
+Admin Email: email@apple.com
+Registry Tech ID: 107795749-CIRA
+Tech Name: Technical Manager
+Tech Organization: Com Laude
+Tech Street: 28-30 Little Russell Street
+Tech City: London
+Tech State/Province: London
+Tech Postal Code: WC1A2HN
+Tech Country: GB
+Tech Phone: +44.2074218250
+Tech Phone Ext:
+Tech Fax: +44.8700118187
+Tech Fax Ext:
+Tech Email: email@comlaude.com
+Registry Billing ID:
+Billing Name:
+Billing Organization:
+Billing Street:
+Billing City:
+Billing State/Province:
+Billing Postal Code:
+Billing Country:
+Billing Phone:
+Billing Phone Ext:
+Billing Fax:
+Billing Fax Ext:
+Billing Email:
+Name Server: a.ns.apple.com
+Name Server: b.ns.apple.com
+Name Server: c.ns.apple.com
+Name Server: d.ns.apple.com
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2024-01-20T06:28:15Z <<<

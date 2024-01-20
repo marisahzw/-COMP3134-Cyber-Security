@@ -1,0 +1,71 @@
+
+
+root@comp3134Winter2024-Cyber-Security:~# nmap 13.107.42.14
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-20 07:07 UTC
+Nmap scan report for 13.107.42.14
+Host is up (0.0013s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE
+53/tcp  closed domain
+80/tcp  open   http
+443/tcp open   https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.99 seconds
+
+
+root@comp3134Winter2024-Cyber-Security:~# nmap -p 80  13.107.42.14
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-20 07:09 UTC
+Nmap scan report for 13.107.42.14
+Host is up (0.0014s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+
+
+root@comp3134Winter2024-Cyber-Security:~# nmap -p 80-100  13.107.42.14
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-20 07:10 UTC
+Nmap scan report for 13.107.42.14
+Host is up (0.0014s latency).
+
+PORT    STATE    SERVICE
+80/tcp  open     http
+81/tcp  filtered hosts2-ns
+82/tcp  filtered xfer
+83/tcp  filtered mit-ml-dev
+84/tcp  filtered ctf
+85/tcp  filtered mit-ml-dev
+86/tcp  filtered mfcobol
+87/tcp  filtered priv-term-l
+88/tcp  filtered kerberos-sec
+89/tcp  filtered su-mit-tg
+90/tcp  filtered dnsix
+91/tcp  filtered mit-dov
+92/tcp  filtered npp
+93/tcp  filtered dcp
+94/tcp  filtered objcall
+95/tcp  filtered supdup
+96/tcp  filtered dixie
+97/tcp  filtered swift-rvf
+98/tcp  filtered linuxconf
+99/tcp  filtered metagram
+100/tcp filtered newacct
+
+Nmap done: 1 IP address (1 host up) scanned in 1.45 seconds
+root@comp3134Winter2024-Cyber-Security:~#
+
+
+Nmap done: 1 IP address (1 host up) scanned in 1.45 seconds
+root@comp3134Winter2024-Cyber-Security:~# nmap -F 13.107.42.14
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-20 07:11 UTC
+Nmap scan report for 13.107.42.14
+Host is up (0.0013s latency).
+Not shown: 97 filtered ports
+PORT    STATE  SERVICE
+53/tcp  closed domain
+80/tcp  open   http
+443/tcp open   https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.86 seconds
+root@comp3134Winter2024-Cyber-Security:~#
