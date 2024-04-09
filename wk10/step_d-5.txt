@@ -1,0 +1,12 @@
+This query string gave us list of folders 2 level above pwd that was the directory_traversal_part1.php
+
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => index.html
+    [3] => wk10
+)
+
+
+From this page the user will know where our file is opening, and how the server is structured from the root level.

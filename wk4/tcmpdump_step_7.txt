@@ -1,0 +1,60 @@
+root@comp3134Winter2024-Cyber-Security:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+07:02:03.076782 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 1028065699:1028065763, ack 1647774310, win 501, options [nop,nop,TS val 3793469849 ecr 833728260], length 64
+07:02:03.077989 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 64:128, ack 1, win 501, options [nop,nop,TS val 3793469850 ecr 833728260], length 64
+07:02:03.078033 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 128:208, ack 1, win 501, options [nop,nop,TS val 3793469850 ecr 833728260], length 80
+07:02:03.078170 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 208:432, ack 1, win 501, options [nop,nop,TS val 3793469850 ecr 833728260], length 224
+07:02:03.091721 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 64, win 2577, options [nop,nop,TS val 833728280 ecr 3793469849], length 0
+07:02:03.092587 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 128, win 2577, options [nop,nop,TS val 833728281 ecr 3793469850], length 0
+07:02:03.092587 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 208, win 2577, options [nop,nop,TS val 833728281 ecr 3793469850], length 0
+07:02:03.092587 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 432, win 2577, options [nop,nop,TS val 833728281 ecr 3793469850], length 0
+07:02:04.124022 IP 170.78.194.98.17064 > comp3134Winter2024-Cyber-Security.http: Flags [S], seq 103507803, win 2, length 0
+07:02:04.124121 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.17064: Flags [S.], seq 3252827869, ack 103507804, win 64240, options [mss 1460], length 0
+07:02:04.280763 IP 170.78.194.98.17064 > comp3134Winter2024-Cyber-Security.http: Flags [R], seq 103507804, win 16384, length 0
+07:02:04.634563 IP 170.78.194.98.52076 > comp3134Winter2024-Cyber-Security.http: Flags [S], seq 103883443, win 1, length 0
+07:02:04.634635 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.52076: Flags [S.], seq 3704878661, ack 103883444, win 64240, options [mss 1460], length 0
+07:02:04.875975 IP 176.111.174.30.42454 > comp3134Winter2024-Cyber-Security.5922: Flags [S], seq 3015119807, win 1024, length 0
+07:02:05.413048 IP 170.78.194.98.17355 > comp3134Winter2024-Cyber-Security.http: Flags [S], seq 1057750262, win 1, length 0
+07:02:05.413130 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.17355: Flags [S.], seq 4032837075, ack 1057750263, win 64240, options [mss 1460], length 0
+07:02:05.454338 IP 170.78.194.98.23046 > comp3134Winter2024-Cyber-Security.http: Flags [S], seq 103883443, win 2, length 0
+07:02:05.454407 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.23046: Flags [S.], seq 4215108628, ack 103883444, win 64240, options [mss 1460], length 0
+07:02:05.659795 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.2268: Flags [S.], seq 36818624, ack 1052681537, win 64240, options [mss 1460], length 0
+07:02:05.659818 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.52076: Flags [S.], seq 3704878661, ack 103883444, win 64240, options [mss 1460], length 0
+07:02:05.865355 IP 170.78.194.98.50265 > comp3134Winter2024-Cyber-Security.http: Flags [S], seq 1052737882, win 0, length 0
+07:02:05.865418 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.50265: Flags [S.], seq 4280063423, ack 1052737883, win 64240, options [mss 1460], length 0
+07:02:05.915814 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.20427: Flags [S.], seq 1795560109, ack 1057750263, win 64240, options [mss 1460], length 0
+07:02:05.915835 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.55707: Flags [S.], seq 617046386, ack 2985884004, win 64240, options [mss 1460], length 0
+07:02:05.992405 IP 170.78.194.98.28972 > comp3134Winter2024-Cyber-Security.http: Flags [S], seq 1057750262, win 1, length 0
+07:02:05.992580 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.28972: Flags [S.], seq 95756928, ack 1057750263, win 64240, options [mss 1460], length 0
+07:02:06.171836 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.41833: Flags [S.], seq 2690988199, ack 1057750263, win 64240, options [mss 1460], length 0
+07:02:06.171865 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.2294: Flags [S.], seq 3723491982, ack 2488051598, win 64240, options [mss 1460], length 0
+07:02:06.190364 IP 170.78.194.98.43138 > comp3134Winter2024-Cyber-Security.http: Flags [S], seq 2985996695, win 2, length 0
+07:02:06.190431 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.43138: Flags [S.], seq 1079009815, ack 2985996696, win 64240, options [mss 1460], length 0
+07:02:06.427823 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.17355: Flags [S.], seq 4032837075, ack 1057750263, win 64240, options [mss 1460], length 0
+07:02:06.459818 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.23046: Flags [S.], seq 4215108628, ack 103883444, win 64240, options [mss 1460], length 0
+07:02:06.544364 IP 170.78.194.98.13173 > comp3134Winter2024-Cyber-Security.https: Flags [S], seq 103939789, win 1, length 0
+07:02:06.544424 IP comp3134Winter2024-Cyber-Security.https > 170.78.194.98.13173: Flags [R.], seq 0, ack 103939790, win 0, length 0
+07:02:06.611507 IP 170.78.194.98.63401 > comp3134Winter2024-Cyber-Security.http: Flags [S], seq 2488051597, win 2, length 0
+07:02:06.611592 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.63401: Flags [S.], seq 940939952, ack 2488051598, win 64240, options [mss 1460], length 0
+07:02:06.661928 IP 170.78.194.98.49474 > comp3134Winter2024-Cyber-Security.https: Flags [S], seq 3922120852, win 2, length 0
+07:02:06.661997 IP comp3134Winter2024-Cyber-Security.https > 170.78.194.98.49474: Flags [R.], seq 0, ack 3922120853, win 0, length 0
+07:02:06.683805 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.37776: Flags [S.], seq 2867326233, ack 1057919301, win 64240, options [mss 1460], length 0
+07:02:06.875827 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.50265: Flags [S.], seq 4280063423, ack 1052737883, win 64240, options [mss 1460], length 0
+07:02:07.003812 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.28972: Flags [S.], seq 95756928, ack 1057750263, win 64240, options [mss 1460], length 0
+07:02:07.195831 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.43138: Flags [S.], seq 1079009815, ack 2985996696, win 64240, options [mss 1460], length 0
+07:02:07.611833 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.63401: Flags [S.], seq 940939952, ack 2488051598, win 64240, options [mss 1460], length 0
+07:02:07.675834 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.52076: Flags [S.], seq 3704878661, ack 103883444, win 64240, options [mss 1460], length 0
+07:02:08.443811 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.17355: Flags [S.], seq 4032837075, ack 1057750263, win 64240, options [mss 1460], length 0
+07:02:08.475817 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.23046: Flags [S.], seq 4215108628, ack 103883444, win 64240, options [mss 1460], length 0
+07:02:08.891812 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.50265: Flags [S.], seq 4280063423, ack 1052737883, win 64240, options [mss 1460], length 0
+07:02:09.019798 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.28972: Flags [S.], seq 95756928, ack 1057750263, win 64240, options [mss 1460], length 0
+07:02:09.211793 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.43138: Flags [S.], seq 1079009815, ack 2985996696, win 64240, options [mss 1460], length 0
+07:02:09.627804 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.63401: Flags [S.], seq 940939952, ack 2488051598, win 64240, options [mss 1460], length 0
+07:02:11.803817 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.52076: Flags [S.], seq 3704878661, ack 103883444, win 64240, options [mss 1460], length 0
+07:02:12.571795 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.23046: Flags [S.], seq 4215108628, ack 103883444, win 64240, options [mss 1460], length 0
+07:02:12.571818 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.17355: Flags [S.], seq 4032837075, ack 1057750263, win 64240, options [mss 1460], length 0
+07:02:13.083824 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.28972: Flags [S.], seq 95756928, ack 1057750263, win 64240, options [mss 1460], length 0
+07:02:13.083846 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.50265: Flags [S.], seq 4280063423, ack 1052737883, win 64240, options [mss 1460], length 0
+07:02:13.339822 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.43138: Flags [S.], seq 1079009815, ack 2985996696, win 64240, options [mss 1460], length 0
+07:02:13.851804 IP comp3134Winter2024-Cyber-Security.http > 170.78.194.98.63401: Flags [S.], seq 940939952, ack 2488051598, win 64240, options [mss 1460], length 0
+root@comp3134Winter2024-Cyber-Security:~# 

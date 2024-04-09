@@ -1,0 +1,4 @@
+Step 6) ufw allow 2222/tcp
+	service sshd restart
+
+Step 7) ssh -p 2222 root@159.203.60.183

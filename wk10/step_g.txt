@@ -1,0 +1,1 @@
+Having html comments exposes potentially sensitive information that anyone can view by looking at the source code. By converting the file to php and adding php comments instead we protect sensitive comments since the php comments will not be send to the browser.

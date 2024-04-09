@@ -1,0 +1,4 @@
+The script attempt to find the file or directory "hello" but it doesn't exists. 
+
+
+The php script exposes the full path structure to user, and gives and idea on the written code i.e. scandir() on line 7.

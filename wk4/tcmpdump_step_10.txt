@@ -1,0 +1,166 @@
+root@comp3134Winter2024-Cyber-Security:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+07:06:35.709241 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 1028324115:1028324243, ack 1647776342, win 501, options [nop,nop,TS val 3793742481 ecr 834000890], length 128
+07:06:35.709313 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 128:272, ack 1, win 501, options [nop,nop,TS val 3793742481 ecr 834000890], length 144
+07:06:35.709440 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 272:496, ack 1, win 501, options [nop,nop,TS val 3793742481 ecr 834000890], length 224
+07:06:35.717527 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 0, win 2577, options [nop,nop,TS val 834000906 ecr 3793742476], length 0
+07:06:35.722802 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 128, win 2577, options [nop,nop,TS val 834000911 ecr 3793742481], length 0
+07:06:35.722863 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 272, win 2577, options [nop,nop,TS val 834000911 ecr 3793742481], length 0
+07:06:35.722863 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 496, win 2577, options [nop,nop,TS val 834000911 ecr 3793742481], length 0
+07:06:35.813685 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 496:752, ack 1, win 501, options [nop,nop,TS val 3793742585 ecr 834000911], length 256
+07:06:35.813803 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 752:1056, ack 1, win 501, options [nop,nop,TS val 3793742586 ecr 834000911], length 304
+07:06:35.813893 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 1056:1360, ack 1, win 501, options [nop,nop,TS val 3793742586 ecr 834000911], length 304
+07:06:35.814021 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 1360:2224, ack 1, win 501, options [nop,nop,TS val 3793742586 ecr 834000911], length 864
+07:06:35.814159 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 2224:2576, ack 1, win 501, options [nop,nop,TS val 3793742586 ecr 834000911], length 352
+07:06:35.827322 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 752, win 2577, options [nop,nop,TS val 834001015 ecr 3793742585], length 0
+07:06:35.827370 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 1056, win 2577, options [nop,nop,TS val 834001015 ecr 3793742586], length 0
+07:06:35.827370 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 1360, win 2577, options [nop,nop,TS val 834001016 ecr 3793742586], length 0
+07:06:35.827530 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 2224, win 2577, options [nop,nop,TS val 834001016 ecr 3793742586], length 0
+07:06:35.827687 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 2576, win 2577, options [nop,nop,TS val 834001016 ecr 3793742586], length 0
+07:06:35.911946 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 2576:2816, ack 1, win 501, options [nop,nop,TS val 3793742684 ecr 834001016], length 240
+07:06:35.912049 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 2816:3120, ack 1, win 501, options [nop,nop,TS val 3793742684 ecr 834001016], length 304
+07:06:35.912184 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 3120:4032, ack 1, win 501, options [nop,nop,TS val 3793742684 ecr 834001016], length 912
+07:06:35.912313 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 4032:4960, ack 1, win 501, options [nop,nop,TS val 3793742684 ecr 834001016], length 928
+07:06:35.912446 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 4960:5536, ack 1, win 501, options [nop,nop,TS val 3793742684 ecr 834001016], length 576
+07:06:35.926806 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 2816, win 2577, options [nop,nop,TS val 834001115 ecr 3793742684], length 0
+07:06:35.926806 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 3120, win 2577, options [nop,nop,TS val 834001115 ecr 3793742684], length 0
+07:06:35.926806 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 4032, win 2577, options [nop,nop,TS val 834001115 ecr 3793742684], length 0
+07:06:35.926806 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 4960, win 2577, options [nop,nop,TS val 834001115 ecr 3793742684], length 0
+07:06:35.926806 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 5536, win 2577, options [nop,nop,TS val 834001115 ecr 3793742684], length 0
+07:06:36.015969 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 5536:5776, ack 1, win 501, options [nop,nop,TS val 3793742788 ecr 834001115], length 240
+07:06:36.016051 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 5776:6080, ack 1, win 501, options [nop,nop,TS val 3793742788 ecr 834001115], length 304
+07:06:36.016180 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 6080:6752, ack 1, win 501, options [nop,nop,TS val 3793742788 ecr 834001115], length 672
+07:06:36.016274 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 6752:7344, ack 1, win 501, options [nop,nop,TS val 3793742788 ecr 834001115], length 592
+07:06:36.016370 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 7344:8144, ack 1, win 501, options [nop,nop,TS val 3793742788 ecr 834001115], length 800
+07:06:36.016472 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 8144:8496, ack 1, win 501, options [nop,nop,TS val 3793742788 ecr 834001115], length 352
+07:06:36.029694 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 5776, win 2577, options [nop,nop,TS val 834001218 ecr 3793742788], length 0
+07:06:36.029694 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 6080, win 2577, options [nop,nop,TS val 834001218 ecr 3793742788], length 0
+07:06:36.029813 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 8144, win 2577, options [nop,nop,TS val 834001218 ecr 3793742788], length 0
+07:06:36.062567 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 8496, win 2577, options [nop,nop,TS val 834001250 ecr 3793742788], length 0
+07:06:36.119996 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 8496:8736, ack 1, win 501, options [nop,nop,TS val 3793742892 ecr 834001250], length 240
+07:06:36.120123 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 8736:9040, ack 1, win 501, options [nop,nop,TS val 3793742892 ecr 834001250], length 304
+07:06:36.120333 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 9040:10320, ack 1, win 501, options [nop,nop,TS val 3793742892 ecr 834001250], length 1280
+07:06:36.120425 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 10320:10832, ack 1, win 501, options [nop,nop,TS val 3793742892 ecr 834001250], length 512
+07:06:36.120665 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 10832:11472, ack 1, win 501, options [nop,nop,TS val 3793742892 ecr 834001250], length 640
+07:06:36.133998 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 10320, win 2577, options [nop,nop,TS val 834001322 ecr 3793742892], length 0
+07:06:36.158805 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 11472, win 2577, options [nop,nop,TS val 834001347 ecr 3793742892], length 0
+07:06:36.224025 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 11472:11712, ack 1, win 501, options [nop,nop,TS val 3793742996 ecr 834001347], length 240
+07:06:36.224164 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 11712:12016, ack 1, win 501, options [nop,nop,TS val 3793742996 ecr 834001347], length 304
+07:06:36.224320 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 12016:12624, ack 1, win 501, options [nop,nop,TS val 3793742996 ecr 834001347], length 608
+07:06:36.224414 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 12624:12992, ack 1, win 501, options [nop,nop,TS val 3793742996 ecr 834001347], length 368
+07:06:36.224507 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 12992:13504, ack 1, win 501, options [nop,nop,TS val 3793742996 ecr 834001347], length 512
+07:06:36.224740 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 13504:13568, ack 1, win 501, options [nop,nop,TS val 3793742996 ecr 834001347], length 64
+07:06:36.238080 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 12992, win 2577, options [nop,nop,TS val 834001426 ecr 3793742996], length 0
+07:06:36.263004 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 13568, win 2577, options [nop,nop,TS val 834001451 ecr 3793742996], length 0
+07:06:36.328026 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 13568:13808, ack 1, win 501, options [nop,nop,TS val 3793743100 ecr 834001451], length 240
+07:06:36.328157 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 13808:14112, ack 1, win 501, options [nop,nop,TS val 3793743100 ecr 834001451], length 304
+07:06:36.328223 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 14112:14176, ack 1, win 501, options [nop,nop,TS val 3793743100 ecr 834001451], length 64
+07:06:36.328317 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 14176:14480, ack 1, win 501, options [nop,nop,TS val 3793743100 ecr 834001451], length 304
+07:06:36.328427 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 14480:15024, ack 1, win 501, options [nop,nop,TS val 3793743100 ecr 834001451], length 544
+07:06:36.328531 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 15024:15680, ack 1, win 501, options [nop,nop,TS val 3793743100 ecr 834001451], length 656
+07:06:36.328634 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 15680:15968, ack 1, win 501, options [nop,nop,TS val 3793743100 ecr 834001451], length 288
+07:06:36.342115 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 15024, win 2577, options [nop,nop,TS val 834001530 ecr 3793743100], length 0
+07:06:36.360784 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 15968, win 2577, options [nop,nop,TS val 834001549 ecr 3793743100], length 0
+07:06:36.431958 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 15968:16208, ack 1, win 501, options [nop,nop,TS val 3793743204 ecr 834001549], length 240
+07:06:36.432041 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 16208:16512, ack 1, win 501, options [nop,nop,TS val 3793743204 ecr 834001549], length 304
+07:06:36.432170 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 16512:17424, ack 1, win 501, options [nop,nop,TS val 3793743204 ecr 834001549], length 912
+07:06:36.432309 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 17424:18384, ack 1, win 501, options [nop,nop,TS val 3793743204 ecr 834001549], length 960
+07:06:36.432495 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 18384:18672, ack 1, win 501, options [nop,nop,TS val 3793743204 ecr 834001549], length 288
+07:06:36.445851 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 17424, win 2577, options [nop,nop,TS val 834001634 ecr 3793743204], length 0
+07:06:36.462367 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 18672, win 2577, options [nop,nop,TS val 834001650 ecr 3793743204], length 0
+07:06:36.536038 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 18672:18912, ack 1, win 501, options [nop,nop,TS val 3793743308 ecr 834001650], length 240
+07:06:36.536190 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 18912:19216, ack 1, win 501, options [nop,nop,TS val 3793743308 ecr 834001650], length 304
+07:06:36.536265 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 19216:19280, ack 1, win 501, options [nop,nop,TS val 3793743308 ecr 834001650], length 64
+07:06:36.536385 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 19280:19888, ack 1, win 501, options [nop,nop,TS val 3793743308 ecr 834001650], length 608
+07:06:36.536494 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 19888:20416, ack 1, win 501, options [nop,nop,TS val 3793743308 ecr 834001650], length 528
+07:06:36.536588 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 20416:20768, ack 1, win 501, options [nop,nop,TS val 3793743308 ecr 834001650], length 352
+07:06:36.550531 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 20416, win 2577, options [nop,nop,TS val 834001738 ecr 3793743308], length 0
+07:06:36.569012 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 20768, win 2577, options [nop,nop,TS val 834001757 ecr 3793743308], length 0
+07:06:36.640021 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 20768:21008, ack 1, win 501, options [nop,nop,TS val 3793743412 ecr 834001757], length 240
+07:06:36.640126 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 21008:21312, ack 1, win 501, options [nop,nop,TS val 3793743412 ecr 834001757], length 304
+07:06:36.640245 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 21312:21680, ack 1, win 501, options [nop,nop,TS val 3793743412 ecr 834001757], length 368
+07:06:36.640342 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 21680:21984, ack 1, win 501, options [nop,nop,TS val 3793743412 ecr 834001757], length 304
+07:06:36.640434 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 21984:22528, ack 1, win 501, options [nop,nop,TS val 3793743412 ecr 834001757], length 544
+07:06:36.640528 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 22528:22816, ack 1, win 501, options [nop,nop,TS val 3793743412 ecr 834001757], length 288
+07:06:36.640626 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 22816:23168, ack 1, win 501, options [nop,nop,TS val 3793743412 ecr 834001757], length 352
+07:06:36.654020 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 22528, win 2577, options [nop,nop,TS val 834001842 ecr 3793743412], length 0
+07:06:36.691688 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 23168, win 2577, options [nop,nop,TS val 834001880 ecr 3793743412], length 0
+07:06:36.744011 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 23168:23408, ack 1, win 501, options [nop,nop,TS val 3793743516 ecr 834001880], length 240
+07:06:36.744135 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 23408:23712, ack 1, win 501, options [nop,nop,TS val 3793743516 ecr 834001880], length 304
+07:06:36.744253 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 23712:24080, ack 1, win 501, options [nop,nop,TS val 3793743516 ecr 834001880], length 368
+07:06:36.744370 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 24080:24624, ack 1, win 501, options [nop,nop,TS val 3793743516 ecr 834001880], length 544
+07:06:36.744490 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 24624:25232, ack 1, win 501, options [nop,nop,TS val 3793743516 ecr 834001880], length 608
+07:06:36.744610 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 25232:25808, ack 1, win 501, options [nop,nop,TS val 3793743516 ecr 834001880], length 576
+07:06:36.744744 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 25808:25872, ack 1, win 501, options [nop,nop,TS val 3793743517 ecr 834001880], length 64
+07:06:36.757992 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 24624, win 2577, options [nop,nop,TS val 834001946 ecr 3793743516], length 0
+07:06:36.786090 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 25872, win 2577, options [nop,nop,TS val 834001974 ecr 3793743516], length 0
+07:06:36.848017 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 25872:26112, ack 1, win 501, options [nop,nop,TS val 3793743620 ecr 834001974], length 240
+07:06:36.848319 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 26112:26176, ack 1, win 501, options [nop,nop,TS val 3793743620 ecr 834001974], length 64
+07:06:36.848438 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 26176:26416, ack 1, win 501, options [nop,nop,TS val 3793743620 ecr 834001974], length 240
+07:06:36.848544 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 26416:26720, ack 1, win 501, options [nop,nop,TS val 3793743620 ecr 834001974], length 304
+07:06:36.848672 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 26720:27328, ack 1, win 501, options [nop,nop,TS val 3793743620 ecr 834001974], length 608
+07:06:36.848898 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 27328:28288, ack 1, win 501, options [nop,nop,TS val 3793743621 ecr 834001974], length 960
+07:06:36.849055 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 28288:28576, ack 1, win 501, options [nop,nop,TS val 3793743621 ecr 834001974], length 288
+07:06:36.862317 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 27328, win 2577, options [nop,nop,TS val 834002050 ecr 3793743620], length 0
+07:06:36.890713 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 28576, win 2577, options [nop,nop,TS val 834002079 ecr 3793743621], length 0
+07:06:36.952007 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 28576:28816, ack 1, win 501, options [nop,nop,TS val 3793743724 ecr 834002079], length 240
+07:06:36.952308 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 28816:28880, ack 1, win 501, options [nop,nop,TS val 3793743724 ecr 834002079], length 64
+07:06:36.952375 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 28880:29120, ack 1, win 501, options [nop,nop,TS val 3793743724 ecr 834002079], length 240
+07:06:36.952440 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 29120:29184, ack 1, win 501, options [nop,nop,TS val 3793743724 ecr 834002079], length 64
+07:06:36.952532 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 29184:29488, ack 1, win 501, options [nop,nop,TS val 3793743724 ecr 834002079], length 304
+07:06:36.952626 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 29488:30096, ack 1, win 501, options [nop,nop,TS val 3793743724 ecr 834002079], length 608
+07:06:36.952716 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 30096:30640, ack 1, win 501, options [nop,nop,TS val 3793743724 ecr 834002079], length 544
+07:06:36.952806 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 30640:31216, ack 1, win 501, options [nop,nop,TS val 3793743725 ecr 834002079], length 576
+07:06:36.952907 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 31216:31280, ack 1, win 501, options [nop,nop,TS val 3793743725 ecr 834002079], length 64
+07:06:36.966221 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 30096, win 2577, options [nop,nop,TS val 834002154 ecr 3793743724], length 0
+07:06:36.977834 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 31280, win 2577, options [nop,nop,TS val 834002166 ecr 3793743724], length 0
+07:06:37.056010 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 31280:31520, ack 1, win 501, options [nop,nop,TS val 3793743828 ecr 834002166], length 240
+07:06:37.056111 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 31520:31824, ack 1, win 501, options [nop,nop,TS val 3793743828 ecr 834002166], length 304
+07:06:37.056247 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 31824:32496, ack 1, win 501, options [nop,nop,TS val 3793743828 ecr 834002166], length 672
+07:06:37.056356 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 32496:33040, ack 1, win 501, options [nop,nop,TS val 3793743828 ecr 834002166], length 544
+07:06:37.056445 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 33040:33408, ack 1, win 501, options [nop,nop,TS val 3793743828 ecr 834002166], length 368
+07:06:37.056561 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 33408:34240, ack 1, win 501, options [nop,nop,TS val 3793743828 ecr 834002166], length 832
+07:06:37.056696 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 34240:34592, ack 1, win 501, options [nop,nop,TS val 3793743828 ecr 834002166], length 352
+07:06:37.070012 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 33040, win 2577, options [nop,nop,TS val 834002258 ecr 3793743828], length 0
+07:06:37.070314 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 34592, win 2577, options [nop,nop,TS val 834002258 ecr 3793743828], length 0
+07:06:37.160049 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 34592:34832, ack 1, win 501, options [nop,nop,TS val 3793743932 ecr 834002258], length 240
+07:06:37.160185 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 34832:35136, ack 1, win 501, options [nop,nop,TS val 3793743932 ecr 834002258], length 304
+07:06:37.160446 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 35136:35200, ack 1, win 501, options [nop,nop,TS val 3793743932 ecr 834002258], length 64
+07:06:37.160476 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 35200:35440, ack 1, win 501, options [nop,nop,TS val 3793743932 ecr 834002258], length 240
+07:06:37.160590 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 35440:35808, ack 1, win 501, options [nop,nop,TS val 3793743932 ecr 834002258], length 368
+07:06:37.160693 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 35808:36352, ack 1, win 501, options [nop,nop,TS val 3793743932 ecr 834002258], length 544
+07:06:37.160784 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 36352:36656, ack 1, win 501, options [nop,nop,TS val 3793743933 ecr 834002258], length 304
+07:06:37.160877 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 36656:37008, ack 1, win 501, options [nop,nop,TS val 3793743933 ecr 834002258], length 352
+07:06:37.160972 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 37008:37296, ack 1, win 501, options [nop,nop,TS val 3793743933 ecr 834002258], length 288
+07:06:37.174566 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 36352, win 2577, options [nop,nop,TS val 834002362 ecr 3793743932], length 0
+07:06:37.214239 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 37296, win 2577, options [nop,nop,TS val 834002402 ecr 3793743933], length 0
+07:06:37.264018 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 37296:37536, ack 1, win 501, options [nop,nop,TS val 3793744036 ecr 834002402], length 240
+07:06:37.264130 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 37536:37840, ack 1, win 501, options [nop,nop,TS val 3793744036 ecr 834002402], length 304
+07:06:37.264242 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 37840:38208, ack 1, win 501, options [nop,nop,TS val 3793744036 ecr 834002402], length 368
+07:06:37.264354 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 38208:39120, ack 1, win 501, options [nop,nop,TS val 3793744036 ecr 834002402], length 912
+07:06:37.264454 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 39120:39728, ack 1, win 501, options [nop,nop,TS val 3793744036 ecr 834002402], length 608
+07:06:37.264546 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 39728:40544, ack 1, win 501, options [nop,nop,TS val 3793744036 ecr 834002402], length 816
+07:06:37.264662 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 40544:40608, ack 1, win 501, options [nop,nop,TS val 3793744036 ecr 834002402], length 64
+07:06:37.277960 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 39120, win 2577, options [nop,nop,TS val 834002466 ecr 3793744036], length 0
+07:06:37.278251 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 40608, win 2577, options [nop,nop,TS val 834002466 ecr 3793744036], length 0
+07:06:37.367989 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 40608:40848, ack 1, win 501, options [nop,nop,TS val 3793744140 ecr 834002466], length 240
+07:06:37.368071 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 40848:41152, ack 1, win 501, options [nop,nop,TS val 3793744140 ecr 834002466], length 304
+07:06:37.368199 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 41152:41824, ack 1, win 501, options [nop,nop,TS val 3793744140 ecr 834002466], length 672
+07:06:37.368314 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 41824:42432, ack 1, win 501, options [nop,nop,TS val 3793744140 ecr 834002466], length 608
+07:06:37.368415 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 42432:43024, ack 1, win 501, options [nop,nop,TS val 3793744140 ecr 834002466], length 592
+07:06:37.368527 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 43024:43312, ack 1, win 501, options [nop,nop,TS val 3793744140 ecr 834002466], length 288
+07:06:37.381992 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 42432, win 2577, options [nop,nop,TS val 834002570 ecr 3793744140], length 0
+07:06:37.423330 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 43312, win 2577, options [nop,nop,TS val 834002611 ecr 3793744140], length 0
+07:06:37.472074 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 43312:43552, ack 1, win 501, options [nop,nop,TS val 3793744244 ecr 834002611], length 240
+07:06:37.472153 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 43552:43856, ack 1, win 501, options [nop,nop,TS val 3793744244 ecr 834002611], length 304
+07:06:37.472268 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 43856:44464, ack 1, win 501, options [nop,nop,TS val 3793744244 ecr 834002611], length 608
+07:06:37.472358 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 44464:45072, ack 1, win 501, options [nop,nop,TS val 3793744244 ecr 834002611], length 608
+07:06:37.472486 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 45072:45712, ack 1, win 501, options [nop,nop,TS val 3793744244 ecr 834002611], length 640
+07:06:37.485987 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 45072, win 2577, options [nop,nop,TS val 834002674 ecr 3793744244], length 0
+07:06:37.529113 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 45712, win 2577, options [nop,nop,TS val 834002717 ecr 3793744244], length 0
+^C
+158 packets captured
+168 packets received by filter
+0 packets dropped by kernel
+root@comp3134Winter2024-Cyber-Security:~# 

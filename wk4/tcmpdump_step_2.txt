@@ -1,0 +1,12 @@
+root@comp3134Winter2024-Cyber-Security:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+06:52:09.146554 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 1018805043:1018805171, ack 1647762438, win 502, options [nop,nop,TS val 3792875918 ecr 833134323], length 128
+06:52:09.146639 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 128:272, ack 1, win 502, options [nop,nop,TS val 3792875918 ecr 833134323], length 144
+06:52:09.146780 IP comp3134Winter2024-Cyber-Security.ssh > 162.243.188.66.28010: Flags [P.], seq 272:496, ack 1, win 502, options [nop,nop,TS val 3792875919 ecr 833134323], length 224
+06:52:09.153818 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 0, win 2573, options [nop,nop,TS val 833134342 ecr 3792875912], length 0
+06:52:09.160239 IP 162.243.188.66.28010 > comp3134Winter2024-Cyber-Security.ssh: Flags [.], ack 128, win 2573, options [nop,nop,TS val 833134348 ecr 3792875918], length 0
+5 packets captured
+30 packets received by filter
+0 packets dropped by kernel
+root@comp3134Winter2024-Cyber-Security:~# 

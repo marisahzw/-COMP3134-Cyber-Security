@@ -1,0 +1,8 @@
+1.
+The first issue to mitigate is the ability for users to view files and folders before the "html" directory. This can be resolved by using the basename() function to extract the base name of the provided path and check if it contains the ".html" extension. If the extension is not present, the script will exit and return an error message.
+
+2.
+The second issue to address is the possibility of users attempting to access non-existent folders. This can be resolved by using the file_exists() function to check if the provided path exists before attempting to list its contents. If the path does not exist, the script will exit and return an error message.
+
+3. 
+To further secure the script, users should not be allowed to pass a file name as the value of the "q" parameter. This can be achieved by checking if the provided path contains a dot character, which is typically used in file names. If a dot is found, the script will exit and return an error message indicating that file names are not allowed.

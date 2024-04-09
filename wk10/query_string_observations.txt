@@ -1,0 +1,15 @@
+1) URL Entered: https://www.dictionary.com/browse/cybersecurity
+
+   Result: Dictionary.com returns a page with the defintion of the name 
+
+
+2) When I enter in a non-valid word server served this webpage page with the following url: https://www.dictionary.com/browse/vjbkjk
+The web page says no results found for the invalid word. 
+
+
+3) Using the form submission I get this url in response https:https://www.dictionary.com/browse/%3Cscript%3Ealert(%2527hello%2527)%3C%2Fscript%3E
+The webpage says:No results found for <script>alert('hello')</script>
+
+
+4) Using the term in the url I get this url is response https://www.dictionary.com/noresult?term=%3Cscript%3Ealert(%27hello%27)%3C%2Fscript%3E. The webpage says
+No results found for <script>alert('hello')</script>

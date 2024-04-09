@@ -1,0 +1,9 @@
+We can see an array of all the folders in the directory:
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => html
+)
+
+This compromises the directory structure and files inside the server. Leaving it vulnerable for code injections.

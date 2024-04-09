@@ -1,0 +1,19 @@
+1)
+
+This returns nothing
+
+
+2) 
+It returns the user which shouldnt be allowed as its not active 
+
+ID	Username	Email	First Name	Last Name	Active
+6	bsmith	bsmith@example.com	Ben	Smith	0
+
+
+
+3)
+
+This returns nothing 
+
+
+By using sql injection we were able to bypass and get information that we as the user were not supposed to obtain
